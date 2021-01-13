@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+ 
+
+p {
+    font-family: "Merriweather";
+    letter-spacing: 0.0425em;
+    
+    
+}
+
+.headframe {
+    padding-top: 40vh;
+}
+
+h1 {
+    line-height: 0.5em;
+}
+
+
+.boxtext {
+    font-size: 9px;
+    height:70px;
+}
+
+.w3-image2 {
+    background-image: url("../img/it2.jpg");
+    width:100%;
+    height:100vh; /* nie moze byc 100% bo nie ma okreslonej wielkosci rodzica */
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+
+}
+
+.w3-image3 {
+    background-image: url("./assets/chris-murray-wcZAQZ3IMV0-unsplash.jpg");
+    width:100%;
+    height:80vh; /* nie moze byc 100% bo nie ma okreslonej wielkosci rodzica */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.w3-image4 {
+    background-image: url("./assets/it4.jpg");
+    width:100%;
+    height:80vh; /* nie moze byc 100% bo nie ma okreslonej wielkosci rodzica */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.w3-image5 {
+    background-image: url("./assets/ian-schneider-TamMbr4okv4-unsplash.jpg");
+    width:100%;
+    height:80vh; /* nie moze byc 100% bo nie ma okreslonej wielkosci rodzica */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* .aboutmebox {
+    padding-left: 0px;
+} */
+
+.myskills {
+    height: 60vh;
+    margin-top: 50px;
+    font-size: 1.1em;
+    margin-left: 0;
+    padding-left: 50px;
+}
+
+.maintitle {
+    padding-top:120px;
+}
+
+/* efekt pisania css, animacja*/
+.typewriter h4 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+      animation-delay: 1s;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+  .typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .11em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    animation: 
+      typing 2.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+/*koniec animacja*/
