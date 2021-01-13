@@ -23,7 +23,7 @@ h1 {
 }
 
 .w3-image2 {
-    background-image: url("../img/it2.jpg");
+    background-image: url("./img/it2.jpg");
     width:100%;
     height:100vh; /* nie moze byc 100% bo nie ma okreslonej wielkosci rodzica */
     background-size: cover;
